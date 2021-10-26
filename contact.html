@@ -64,20 +64,17 @@
       </div>
       <div class="row">
         <div class="col-md-8 probootstrap-animate">
-          <form
-  action="https://formspree.io/f/xknkaezj"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknkaezj" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="name@website.com" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Let me know what is on your mind." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
 </form>
         </div>
         <div class="col-md-3 col-md-push-1 probootstrap-animate">
@@ -104,7 +101,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p class="probootstrap-copyright">&copy; 2020 Victoria Keelor</p>
+          <p class="probootstrap-copyright">&copy; 2021 Victoria Keelor</p>
           <ul class="probootstrap-social">
             <li><a href="https://www.linkedin.com/in/victoriakeelor/"><i class="icon-linkedin"></i></a></li>
             <li><a href="https://www.facebook.com/VictoriaJKeelor"><i class="icon-facebook2"></i></a></li>
