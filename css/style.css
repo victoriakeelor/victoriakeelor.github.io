@@ -126,19 +126,19 @@ html > body .underline:hover {
 }
 
 ::selection {
-  background-color: #2d1a6a;
+  background-color: #11552b;
   color: #ffffff;
   text-shadow: none;
 }
 
 -webkit-::selection {
-  background-color: #2d1a6a;
+  background-color: #11552b;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background-color: #2d1a6a;
+  background-color: #11552b;
   color: #ffffff;
   text-shadow: none;
 }
@@ -1001,15 +1001,15 @@ input:focus {
   display: inline-block;
   vertical-align: middle;
   margin-right: .75rem;
-  color:#811e2a;
+  color:#d9a44e;
 }
 
 .nav-toggle-title-inside:hover {
-  color:#811e2a;
+  color:#d9a44e;
 }
 
 .inside-stick {
-  background-color:#811e2a!important;
+  background-color:#d9a44e!important;
 
 }
 
@@ -1620,7 +1620,7 @@ input:focus {
 
 .text-texture {
   display: inline-block;
-  background-color: #811e2a;
+  background-color: #d9a44e;
   background-position: 50% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2131,7 +2131,7 @@ a:hover .service-item-title {
 
 .project-list-listing a:hover .project-listing-title,
 .project-list-masonry a:hover .project-masonry-title {
-  color: ##811e2a;
+  color: ##d9a44e;
 }
 
 .project-listing-detail {
@@ -2183,7 +2183,7 @@ a:hover .service-item-title {
 }
 
 .project-list-piling .footer {
-  background: #11552b;
+  background: #d9a44e;
 }
 
 
@@ -2344,8 +2344,8 @@ a:hover .service-item-title {
 }
 
 .nav-white-orange.owl-theme .owl-nav [class*=owl-]:hover:not(.disabled) {
-  background: ##811e2a;
-  border-color: ##811e2a;
+  background: ##11552b;
+  border-color: ##11552b;
 }
 
 .nav-white-orange .arrow-top,
@@ -3043,7 +3043,7 @@ a:hover .zooming img {
   float: left;
   height: 2px;
   width: 3rem;
-  background: ##811e2a;
+  background: ##11552b;
   overflow: hidden;
   transition: background .5s ease-in-out;
   position: relative;
@@ -3057,7 +3057,7 @@ a:hover .zooming img {
   position: absolute;
   left: 0;
   top: 0;
-  background: ##811e2a;
+  background: ##11552b;
 }
 
 .horizontal-nav li.active:before {
@@ -3342,7 +3342,7 @@ a:hover .zooming img {
   margin: 0;
   padding: 0;
   background: transparent;
-  border: ##811e2a 2px solid;
+  border: ##11552b 2px solid;
   width: 6.48148148vmin;
   height: 6.48148148vmin;
   min-width: 3rem;
@@ -3356,7 +3356,7 @@ a:hover .zooming img {
 }
 
 .btn-play:hover {
-  background: ##811e2a;
+  background: ##11552b;
   text-decoration: none;
 }
 
@@ -3387,7 +3387,7 @@ a.btn-play i {
 }
 
 .btn-play-lg:hover {
-  border-color: ##811e2a;
+  border-color: ##11552b;
 }
 
 .media-title {
@@ -3433,7 +3433,7 @@ a.btn-play i {
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: ##811e2a;
+  background: ##11552b;
   transition: width .3s ease-in-out;
 }
 
@@ -5588,7 +5588,7 @@ a.minimal-item:hover {
 
 .services-flash .service-item:before {
   content: "";
-  background: ##811e2a;
+  background: ##d9a44e;
   height: 5px;
   width: 0;
   position: absolute;
@@ -6024,7 +6024,7 @@ a:hover .project-metro-photo img {
 
 .article-list-flash .article-item-category,
 .article-list-flash .article-item-category a {
-  color: ##811e2a;
+  color: ##d9a44e;
 }
 
 
@@ -6254,7 +6254,7 @@ a:hover .project-metro-photo img {
   margin: 0;
   cursor: pointer;
   font-size: 2.25rem;
-  color: ##811e2a;
+  color: ##d9a44e;
 }
 
 .like-btn i {
@@ -6956,8 +6956,8 @@ a.page-link:hover {
 }
 
 .article-promo-item .btn-outline-light:hover {
-  background: ##811e2a;
-  border-color: ##811e2a;
+  background: ##d9a44e;
+  border-color: ##d9a44e;
   color: #ffffff;
 }
 
@@ -7884,7 +7884,7 @@ a.phone-link {
 .theme-orange .filter-location .active a,
 .theme-orange .nav-inline.text-black .active a,
 .theme-orange .nav-inline.text-black a:hover {
-  color: ##811e2a !important;
+  color: ##d9a44e !important;
 }
 
 .theme-orange .nav-toggle-btn:hover .stick,
@@ -7892,11 +7892,11 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span:before,
 .theme-orange .owl-theme .owl-dots .owl-dot:hover span:before {
-  background-color: ##811e2a;
+  background-color: ##d9a44e;
 }
 
 .theme-orange .bg-primary {
-  background-color: ##811e2a !important;
+  background-color: ##d9a44e !important;
 }
 
 .theme-orange .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -7920,7 +7920,7 @@ a.phone-link {
 .theme-orange .btn-primary,
 .theme-orange .owl-theme .owl-dots .owl-dot.active span,
 .theme-orange .btn-outline-secondary:hover {
-  border-color: ##811e2a;
+  border-color: ##d9a44e;
 }
 
 
