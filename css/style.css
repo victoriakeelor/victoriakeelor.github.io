@@ -3770,7 +3770,7 @@ a.btn-play i {
   font-size: 50.03703704vmin;
     font-family: 'Libre Baskerville';
     font-weight: 700;
-    line-height: .75;
+    line-height: 1;
 }
 
 .solution-num > .inside {
